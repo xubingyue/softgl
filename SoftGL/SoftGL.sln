@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoftGL", "SoftGL.vcproj", "{434F0F52-0F36-40FA-BEEE-0CDD4A6D8A5D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo", "..\Demo\Demo.vcproj", "{0A61D646-8280-4B20-95D5-43067C420421}"
+	ProjectSection(ProjectDependencies) = postProject
+		{434F0F52-0F36-40FA-BEEE-0CDD4A6D8A5D} = {434F0F52-0F36-40FA-BEEE-0CDD4A6D8A5D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{434F0F52-0F36-40FA-BEEE-0CDD4A6D8A5D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{434F0F52-0F36-40FA-BEEE-0CDD4A6D8A5D}.Debug|Win32.Build.0 = Debug|Win32
+		{434F0F52-0F36-40FA-BEEE-0CDD4A6D8A5D}.Release|Win32.ActiveCfg = Release|Win32
+		{434F0F52-0F36-40FA-BEEE-0CDD4A6D8A5D}.Release|Win32.Build.0 = Release|Win32
+		{0A61D646-8280-4B20-95D5-43067C420421}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0A61D646-8280-4B20-95D5-43067C420421}.Debug|Win32.Build.0 = Debug|Win32
+		{0A61D646-8280-4B20-95D5-43067C420421}.Release|Win32.ActiveCfg = Release|Win32
+		{0A61D646-8280-4B20-95D5-43067C420421}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
